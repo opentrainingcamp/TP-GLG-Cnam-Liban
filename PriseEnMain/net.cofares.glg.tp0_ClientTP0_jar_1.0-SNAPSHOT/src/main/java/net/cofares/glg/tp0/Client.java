@@ -1,5 +1,8 @@
 package net.cofares.glg.tp0;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 /**
  *
  * @author pascalfares
@@ -102,6 +105,12 @@ public class Client {
         return _mail;
     }
 
+    @Override
+    public String toString() {
+        //Gson gson = new Gson();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        return gson.toJson(this);
+    }
     /**
      * pattern builder exemple utilisation new
      * Client.ClientBuilder(1).prenom("pascal").nom("fares").telephone("03240").....build()

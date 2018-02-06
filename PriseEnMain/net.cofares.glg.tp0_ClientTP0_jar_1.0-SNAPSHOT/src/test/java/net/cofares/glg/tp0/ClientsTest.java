@@ -47,6 +47,21 @@ public class ClientsTest {
         Client expResult = null;
         Client result = Clients.find(id);
         assertEquals(expResult, result);
+        Client c = new Client.ClientBuilder("C2")
+                .nom("fares")
+                .prenom("pascal")
+                .rue("Zkak")
+                .code("0324")
+                .etat("Bey")
+                .ville("Beyrouth")
+                .pays("Liban")
+                .telephone("01840161")
+                .mail("pf@isae.edu.lb")
+                .build();
+        Clients.insert(c);
+        
+        Client result2 = Clients.find(id);
+        assertEquals(c, result2);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }

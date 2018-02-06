@@ -26,6 +26,10 @@ public class Clients {
         clients.put(c.getId(), c);
     }
     
+    public static void update(Client c){
+        //TODO
+    }
+    
     public static void remove (String id) {
         clients.remove(id);
     }
