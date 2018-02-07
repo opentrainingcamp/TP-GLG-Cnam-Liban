@@ -10,7 +10,7 @@ pour ceux qui sont sous windows : Installer github for windows viens avec un Lin
 
 B- utilisation git et github
 
-Ce premier TP vous permet de prendre en main le système basé sur git et github de correction  de vos futurs TP. On vous demande d'écrire la classe Client.java  et les tests unitaires.
+Ce premier TP vous permet de prendre en main le système basé sur git et github pour la procedure de soumission de vos futurs TP. On vous demande d'écrire la classe Client.java  et les tests unitaires.
 
 
 La classe Client représente un client; elle possède les attributs suivants, tous de type String : 
@@ -27,4 +27,6 @@ La classe Client représente un client; elle possède les attributs suivants, to
     private String _mail;
 ```
 
-nous créons aussi, dans cette première version, des méthodes statiques (find, insert, remove) gérant (par exemple dans une HashMap associant l'id d'un Client et son instance) l'ensemble de ses instances .
+nous utilisons et créons aussi, 
+ 1. Le pattern Builder pour la création d'un nouveaux client
+ 2. dans cette première version, des méthodes statiques (find, insert, remove) gérant (par exemple dans une HashMap associant l'id d'un Client et son instance) l'ensemble de ses instances .
