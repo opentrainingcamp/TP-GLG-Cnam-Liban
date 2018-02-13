@@ -12,10 +12,12 @@ Travaux pratiques dans le cadre de la valeur C GLG203 et GLG204 informatique au 
 5. JUNIT pour les test
 6. HTML5 et Android natif pour les interfaces mobiles
 7. Mysql et Nosql (Mangodb, Datastore google, Big table)
-8. git et github pour le developpement communautaire et collabaritif
-9. Deploiment et configuration d'une plateforme Cloud, nous utiliserons à titre d'exemple le cloud de Google (dans le cadre de l'essai gratuit pour cahque auditeur)
+8. git et github pour le developpement communautaire et collaboratif
+9. Déploiement et configuration d'une plateforme Cloud, nous utiliserons à titre d'exemple le cloud de Google (dans le cadre de l'essai gratuit pour chaque auditeur)
 10. Architecture à base de services (ou microservices)
 
 ## Autour d'une idée relativement réaliste
 
 Un "1$ online shop". Les 1$ shops sont répendu au liban et permettent de proposer des produits ménager à des prix extrèmement bas. Le produit que nous chercherons a produire est donc une sorte d'[AliExpress]() du Cnam Liban
+
+## [Suivre les TP GLG SMB](TP.md) [Lien vers les TP GLG SMB](TP.md)
