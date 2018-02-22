@@ -150,7 +150,13 @@ public class Data {
 ![M'inviter](inviteMoi.png)
 
 3. Créer ensuite a l'intérieur de cette organisation les projets (un pour chaque TP)
-![Créer les projets](CreerProjet.png)
 
+Visiter et suivre https://classroom.github.com/a/kMJwyNv2
 
-4. Finalement aller dans [Issues de TP GLG](https://github.com/opentrainingcamp/TP-GLG-Cnam-Liban/issues) et créer une issue disant que vous avez fini votre TP, avec dans le corp de l'issue le lien vers votre projet TP et eventuellement mettre le lien dans un devoir qui serait créé dans la [classroom](https://classroom.google.com/u/1/c/MjQwNTAzNzIxN1pa) en temps utile.
+4. Faire un fork dans votre organisation 
+
+5. Réaliser les codes du tp
+
+Faire push dans votre fork, puis pullrequest dans le projet classroom
+
+6. Finalement aller dans [Issues de TP GLG](https://github.com/opentrainingcamp/TP-GLG-Cnam-Liban/issues) et créer une issue disant que vous avez fini votre TP, avec dans le corp de l'issue le lien vers votre projet TP et eventuellement mettre le lien dans un devoir qui serait créé dans la [classroom](https://classroom.google.com/u/1/c/MjQwNTAzNzIxN1pa) en temps utile.
