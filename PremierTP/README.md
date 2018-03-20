@@ -17,12 +17,14 @@ Après notre premier entretien informel avec Bob il nous fournit sa vision de l'
  (4) Mettre a jour client
 ```
 
-(1)On pourra ainsi accéder à l'action « créer d'un client » en tapant le chiffre 1. S'affiche ensuite un menu aidant l'utilisateur à saisir les bonnes données. La ligne Usage permet à Bob de connaître l'ordre des données à saisir et la ligne Example lui fournit un exemple.
+(1)On pourra ainsi accéder à l'action « créer d'un client » en tapant le chiffre 1. S'affiche ensuite un menu aidant l'utilisateur à saisir les bonnes données. La ligne Usage permet à Bob de connaître l'ordre des données à saisir et la ligne 'Exemple' lui fournit un exemple.
+
+Voici une manière de faire un menu textuel en java [Menu text](Menu)
 
 --- Créer client ---
 > Usage : Id- prénom - nom - tel - adresse
 
-> Exemple : bob001 - Bob - Ducnam - 03240246 - Beyrouth
+> Exemple : bob001 - Bob - Ducnam - 03240246 - Beyrouth ...
 
 Bob n'aura plus qu'à saisir les coordonnées d'un client en séparant chaque donnée par le caractère '-'. Le système alertera l'utilisateur du bon ou mauvais fonctionnement d'une action. Le système, dans sa version initiale, ne vérifiera pas la cohérence des données saisies telle que la validité du numéro de téléphone, des états ou des pays.
 (2) Pour consulter les informations d'un client, Bob saisi un identifiant et le système affiche les données.
