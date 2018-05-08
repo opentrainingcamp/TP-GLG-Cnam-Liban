@@ -15,5 +15,7 @@ Java introduit le mot-clé transient qui précise que l'attribut qu'il qualifie 
 
 ## Persistance JSON avec Gson
 
+voir exemple 
+
 ## un exemple
 
